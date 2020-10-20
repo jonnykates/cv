@@ -1,8 +1,10 @@
+import { FaGraduationCap } from "react-icons/fa";
 
 export default {
   title: "Education",
   name: "education",
   type: "document",
+  icon: FaGraduationCap,
   fields: [
     {
       title: "Institution",

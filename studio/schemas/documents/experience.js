@@ -1,7 +1,10 @@
+import { MdWork } from "react-icons/md";
+
 export default {
   title: "Experience",
   name: "experience",
   type: "document",
+  icon: MdWork,
   fields: [
     {
       title: "Job title",

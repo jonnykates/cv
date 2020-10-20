@@ -1,7 +1,10 @@
+import { MdFace } from "react-icons/md";
+
 export default {
   title: "Profile",
   name: "profile",
   type: "document",
+  icon: MdFace,
   fields: [
     {
       title: "Name",
