@@ -66,6 +66,15 @@ export default {
       },
     },
     {
+      title: "Interests",
+      name: "interests",
+      type: "array",
+      of: [{ type: "string" }],
+      options: {
+        layout: "tags",
+      },
+    },
+    {
       title: "Links",
       name: "links",
       type: "array",
