@@ -18,6 +18,11 @@ export default {
       type: "string",
     },
     {
+      title: "Location",
+      name: "location",
+      type: "string",
+    },
+    {
       title: "Start date",
       name: "startDate",
       type: "date",

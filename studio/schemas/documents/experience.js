@@ -19,6 +19,11 @@ export default {
       validation: (Rule) => Rule.required(),
     },
     {
+      title: "Location",
+      name: "location",
+      type: "string",
+    },
+    {
       title: "Start date",
       name: "startDate",
       type: "date",
@@ -37,6 +42,11 @@ export default {
     {
       title: "Current place of work",
       name: "current",
+      type: "boolean",
+    },
+    {
+      title: "Full-time?",
+      name: "fulltime",
       type: "boolean",
     },
     {
@@ -61,6 +71,7 @@ export default {
   ],
   initialValue: {
     current: false,
+    fulltime: true,
   },
   preview: {
     select: {
