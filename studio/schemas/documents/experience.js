@@ -62,4 +62,10 @@ export default {
   initialValue: {
     current: false,
   },
+  preview: {
+    select: {
+      title: "jobTitle",
+      subtitle: "organisation",
+    },
+  },
 };
