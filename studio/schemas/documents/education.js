@@ -34,4 +34,16 @@ export default {
       },
     },
   ],
+  orderings: [
+    {
+      title: "Most recent",
+      name: "mostRecent",
+      by: [
+        {
+          field: "startDate",
+          direction: "desc",
+        },
+      ],
+    },
+  ],
 };
