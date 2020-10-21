@@ -1,0 +1,24 @@
+{
+  "name": "jonnykates-cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lerna run start --parallel",
+    "build": "lerna run build --parallel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnykates/cv.git"
+  },
+  "author": "Jonny Kates",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonnykates/cv/issues"
+  },
+  "homepage": "https://github.com/jonnykates/cv#readme",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
