@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ profile.name }} | CV</title>
+    <meta name="Description" content="{{ profile.summary }}">
+  </head>
+  <body>
+    <div class="container">
+      <header class="site-header">
+        <h1>{{ profile.name }}</h1>
+      </header>
+      {{ content | safe }}
+    </div>
+  </body>
+</html>
