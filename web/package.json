@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0"
+    "@11ty/eleventy": "^0.11.0",
+    "@sanity/client": "^2.0.1",
+    "groq": "^2.0.1"
   },
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
