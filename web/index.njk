@@ -5,7 +5,7 @@ layout: layouts/base.njk
 <main class="main-content">
   <section class="section">
     <h2 class="section__heading">Profile</h2>
-    <p>{{ profile.summary }}</p>
+    <p class="larger">{{ profile.summary }}</p>
   </section>
 
   <section class="section">
@@ -13,7 +13,7 @@ layout: layouts/base.njk
 
     {% for experience in experiences %}
       <div class="section__block">
-        <h3>{{ experience.jobTitle }}, <span class="lightweight">{{ experience.organisation }}</span></h3>
+        <h3 class="section__block-heading">{{ experience.jobTitle }}, <span class="lightweight">{{ experience.organisation }}</span></h3>
         <span class="datestamp">{{ experience.startDate }} - {{ "Present" if experience.current else experience.startDate }}</span>
         <p class="section__summary">{{ experience.summary }}</p>
         {% if experience.responsibilities %}
@@ -32,7 +32,7 @@ layout: layouts/base.njk
 
     {% for education in educations %}
       <div class="section__block">
-        <h3>{{ education.institution }}, <span class="lightweight">{{ education.description }}</span></h3>
+        <h3 class="section__block-heading">{{ education.institution }}, <span class="lightweight">{{ education.description }}</span></h3>
         <span class="datestamp">{{ education.startDate }} - {{ education.endDate}}</span>
       </div>
     {% endfor %}
