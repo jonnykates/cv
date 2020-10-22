@@ -14,7 +14,7 @@ layout: layouts/base.njk
     {% for experience in experiences %}
       <div class="section__block">
         <h3 class="section__block-heading">{{ experience.jobTitle }}, <span class="lightweight">{{ experience.organisation }}</span></h3>
-        <span class="datestamp">{{ experience.startDate|monthDateFormat }} - {{ "Present" if experience.current else experience.startDate|monthDateFormat }}</span>
+        <span class="datestamp">{{ experience.startDate|monthDateFormat }} - {{ "Present" if experience.current else experience.endDate|monthDateFormat }}</span>
         <p class="section__summary">{{ experience.summary }}</p>
         {% if experience.responsibilities %}
           <ul class="section__list">
